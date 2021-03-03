@@ -157,7 +157,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives">
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -196,6 +196,91 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/03/03/%E8%AF%8D%E9%A2%91%E5%88%86%E6%9E%90/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Jing Bai">
+      <meta itemprop="description" content="My blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="可视化教学">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/03/03/%E8%AF%8D%E9%A2%91%E5%88%86%E6%9E%90/" class="post-title-link" itemprop="url">词频分析</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2021-03-03 10:22:45 / 修改时间：10:47:39" itemprop="dateCreated datePublished" datetime="2021-03-03T10:22:45+08:00">2021-03-03</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>自选文本进行词频分析练习，导出数据，生成词云图</p>
+<p>1、查找数据：</p>
+<blockquote>
+<p>数据源：毛泽东的诗词全集、诗集(89首全)_诗词名句网 (shicimingju.com)</p>
+</blockquote>
+<p>2、爬取数据</p>
+<blockquote>
+<p>使用后羿采集器对网页进行爬取，爬取到毛泽东诗集89首</p>
+</blockquote>
+<p>3、清洗数据</p>
+<blockquote>
+<p>修改数据格式，将爬取的数据中的换行符、空格等删去</p>
+</blockquote>
+<p>4、python词频统计</p>
+<blockquote>
+<p>import jieba<br>txt=open(“毛泽东诗词.txt”,”r”,encoding =”utf-8”).read()<br>words = jieba.lcut(txt) #用jieba对文本分词，输出精确模式<br>counts={}  #新建一个空字典<br>for word in words:<br>    if len(word) == 1:            #挑出单个的分词（不计数）<br>       continue<br>   else:<br>       counts[word] = counts.get(word,0)+1<br>items = list(counts.items())<br>print(items)<br>import pandas as pd<br>name=[“词”,”pinlv”]<br>test=pd.DataFrame(columns=name, data=items)<br>print(test)<br>test.to_csv(“c:/users/name/Desktop/maoshi.csv”,encoding=’gbk’)</p>
+</blockquote>
+<blockquote>
+<p>5、再次进行数据清洗<br>对一些介词、单字进行删除</p>
+</blockquote>
+<p>6：导入词云图制作网址，制成词云图</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2021/02/17/%E5%AD%A6%E7%94%9F%E4%BD%9C%E4%B8%9A%EF%BC%9A%E5%AD%A6%E4%B9%A0%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -219,10 +304,16 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2021-02-17 10:06:07 / 修改时间：17:31:37" itemprop="dateCreated datePublished" datetime="2021-02-17T10:06:07+08:00">2021-02-17</time>
+      <time title="创建时间：2021-02-17 10:06:07" itemprop="dateCreated datePublished" datetime="2021-02-17T10:06:07+08:00">2021-02-17</time>
     </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2021-02-28 11:38:21" itemprop="dateModified" datetime="2021-02-28T11:38:21+08:00">2021-02-28</time>
+      </span>
 
   
 </div>
@@ -235,6 +326,7 @@
     
     <div class="post-body" itemprop="articleBody">
           <h1 id="Learn-to-set-up-personal-website"><a href="#Learn-to-set-up-personal-website" class="headerlink" title="Learn to set up personal website"></a>Learn to set up personal website</h1><p><a target="_blank" rel="noopener" href="https://bemen-cell.github.io/">https://bemen-cell.github.io</a><br><a target="_blank" rel="noopener" href="https://plong2020.github.io/">https://plong2020.github.io</a><br><a target="_blank" rel="noopener" href="https://liangjianqiang10.github.io/">https://liangjianqiang10.github.io/</a></p>
+<p><a target="_blank" rel="noopener" href="https://xytan2000.github.io/bbqkeshihua/">https://xytan2000.github.io/bbqkeshihua/</a></p>
 
       
     </div>
