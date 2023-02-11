@@ -1,31 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>master改为main的影响</title>
-    <url>/2020/11/30/master%E6%94%B9%E4%B8%BAmain%E7%9A%84%E5%BD%B1%E5%93%8D/</url>
-    <content><![CDATA[<h1 id="用hexo和github搭建个人博客踩的最大的坑"><a href="#用hexo和github搭建个人博客踩的最大的坑" class="headerlink" title="用hexo和github搭建个人博客踩的最大的坑"></a>用hexo和github搭建个人博客踩的最大的坑</h1><p>2020年10月1日起，在github上创建的任何新仓库都将使用main作为默认分支，而不是master。</p>
-<p>因此，在hexo的_config里，要将以下代码做修改</p>
-<blockquote>
-<p>Deploy<br>  type: git<br>  repo: <a href="https://github.com/yourname/yourname.github.io.git">https://github.com/yourname/yourname.github.io.git</a><br>  branch: main</p>
-</blockquote>
-<blockquote>
-<p>注意，branch以前是master，现在要改为main</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>在线引入flourish图表</title>
-    <url>/2021/12/20/%E5%BC%95%E5%85%A5flourish%E5%9B%BE%E8%A1%A8/</url>
-    <content><![CDATA[<h1 id="在网页中引入flourish图表"><a href="#在网页中引入flourish图表" class="headerlink" title="在网页中引入flourish图表"></a>在网页中引入flourish图表</h1><ul>
-<li>注册<a href="https://flourish.studio/%EF%BC%8C%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE%EF%BC%8C%E7%94%9F%E6%88%90%E5%9B%BE%E8%A1%A8">https://flourish.studio/，导入数据，生成图表</a></li>
-<li>Export and publish，显示Embed on your website，复制代码</li>
-<li>将复制的代码嵌入网页</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>在线引入Echarts地图遇到的问题</title>
-    <url>/2020/12/04/%E5%9C%A8%E7%BA%BF%E5%BC%95%E5%85%A5Echarts%E5%9C%B0%E5%9B%BE%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+    <url>/2020/12/04/Echarts%20mp/</url>
     <content><![CDATA[<h1 id="在线地图不符合国家标准问题"><a href="#在线地图不符合国家标准问题" class="headerlink" title="在线地图不符合国家标准问题"></a>在线地图不符合国家标准问题</h1><p>在线引入Echarts地图，除了需要引入echarts.min.js，还需要引入china.js，但由于Echarts原有China地图不是国家标准地图，官方已经停用，因此引入Echarts地图会遇到问题。</p>
 <p>另外，引入echarts.min.js时，在线引入经常由于在线链接的变化而导致链接失效，导致Echarts无法正常引入。建议下载最新版echarts.min.js，将其置于与index同一文件夹，这样只要写一句引入代码就可以了。</p>
 <pre><code>&lt;script src=&quot;echarts.min.js&quot;&gt;
@@ -36,14 +13,8 @@
 ]]></content>
   </entry>
   <entry>
-    <title>学习！学习！再学习</title>
-    <url>/2020/11/30/%E5%AD%A6%E4%B9%A0-%E5%AD%A6%E4%B9%A0-%E5%86%8D%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<h1 id="菜鸟学习用hexo和github搭建主页"><a href="#菜鸟学习用hexo和github搭建主页" class="headerlink" title="菜鸟学习用hexo和github搭建主页"></a>菜鸟学习用hexo和github搭建主页</h1><p>踩了无数坑，看了无数过时的经验贴，花了三天，终于搞定了。<br>这些坑包括：没有在代码中间应该加空格的地方加空格，把- -（两条横杠）写成-（一条横杠），换Theme时的链接是过时无效的，无法生成模板…..</p>
-]]></content>
-  </entry>
-  <entry>
     <title>代码编辑器HBuilderX</title>
-    <url>/2021/12/18/%E4%BB%A3%E7%A0%81%E7%BC%96%E8%BE%91%E5%99%A8/</url>
+    <url>/2021/12/18/code%20editor/</url>
     <content><![CDATA[<h1 id="使用代码编辑器HBuilderX制作网页"><a href="#使用代码编辑器HBuilderX制作网页" class="headerlink" title="使用代码编辑器HBuilderX制作网页"></a>使用代码编辑器HBuilderX制作网页</h1><p>HBuilderX，简称HX。 H是HTML的首字母，Builder是构造者，X是HBuilder的下一代版本。<br>HX既可以是编辑器，也可以是IDE（集成开发环境，使程序员能够整合编写计算机程序的不同方面）。</p>
 <p>下载地址：<a href="https://www.dcloud.io/hbuilderx.html">https://www.dcloud.io/hbuilderx.html</a></p>
 <p>支持java插件、nodejs插件，并兼容了很多vscode的插件及代码块。 还可以通过外部命令，方便地调用各种命令行功能，并设置快捷键。</p>
@@ -54,17 +25,8 @@
 ]]></content>
   </entry>
   <entry>
-    <title>学生作业--搭建网站</title>
-    <url>/2021/02/17/%E5%AD%A6%E7%94%9F%E4%BD%9C%E4%B8%9A%EF%BC%9A%E5%AD%A6%E4%B9%A0%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/</url>
-    <content><![CDATA[<h1 id="Learn-to-set-up-personal-website"><a href="#Learn-to-set-up-personal-website" class="headerlink" title="Learn to set up personal website"></a>Learn to set up personal website</h1><p>在越南学汉语<br><a href="https://longli21.github.io/Hanoi-University/">https://longli21.github.io/Hanoi-University/</a></p>
-<p><a href="https://bemen-cell.github.io/">https://bemen-cell.github.io</a><br><a href="https://liangjianqiang10.github.io/">https://liangjianqiang10.github.io/</a></p>
-<p>表白墙<br><a href="https://xytan2000.github.io/bbqkeshihua/">https://xytan2000.github.io/bbqkeshihua/</a></p>
-<p>碳中和<br><a href="https://china-carbon-neutrality.github.io/China-Carbon-Neutrality.html">https://china-carbon-neutrality.github.io/China-Carbon-Neutrality.html</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>词频分析</title>
-    <url>/2021/03/03/%E8%AF%8D%E9%A2%91%E5%88%86%E6%9E%90/</url>
+    <url>/2021/03/03/Word%20frequency/</url>
     <content><![CDATA[<p>自选文本进行词频分析练习，导出数据，生成词云图</p>
 <p>1、查找数据：</p>
 <blockquote>
@@ -87,6 +49,49 @@
 <p>对一些介词、单字进行删除</p>
 </blockquote>
 <p>6：导入词云图制作网址，制成词云图</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>master改为main的影响</title>
+    <url>/2020/11/30/master%20to%20main/</url>
+    <content><![CDATA[<h1 id="用hexo和github搭建个人博客踩的最大的坑"><a href="#用hexo和github搭建个人博客踩的最大的坑" class="headerlink" title="用hexo和github搭建个人博客踩的最大的坑"></a>用hexo和github搭建个人博客踩的最大的坑</h1><p>2020年10月1日起，在github上创建的任何新仓库都将使用main作为默认分支，而不是master。</p>
+<p>因此，在hexo的_config里，要将以下代码做修改</p>
+<blockquote>
+<p>Deploy<br>  type: git<br>  repo: <a href="https://github.com/yourname/yourname.github.io.git">https://github.com/yourname/yourname.github.io.git</a><br>  branch: main</p>
+</blockquote>
+<blockquote>
+<p>注意，branch以前是master，现在要改为main</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>在线引入flourish图表</title>
+    <url>/2021/12/20/flourish/</url>
+    <content><![CDATA[<h1 id="在网页中引入flourish图表"><a href="#在网页中引入flourish图表" class="headerlink" title="在网页中引入flourish图表"></a>在网页中引入flourish图表</h1><ul>
+<li>注册<a href="https://flourish.studio/%EF%BC%8C%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE%EF%BC%8C%E7%94%9F%E6%88%90%E5%9B%BE%E8%A1%A8">https://flourish.studio/，导入数据，生成图表</a></li>
+<li>Export and publish，显示Embed on your website，复制代码</li>
+<li>将复制的代码嵌入网页</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>学生作业--搭建网站</title>
+    <url>/2023/02/11/students%20works/</url>
+    <content><![CDATA[<h1 id="Learn-to-set-up-personal-website"><a href="#Learn-to-set-up-personal-website" class="headerlink" title="Learn to set up personal website"></a>Learn to set up personal website</h1><p>新加坡公共住房<br><a href="https://shjshiny.github.io/sghome/">https://shjshiny.github.io/sghome/</a></p>
+<p> 越南人口生育率<br><a href="https://rsmingyue.github.io/rsmingyue/index.html#header12-a2">https://rsmingyue.github.io/rsmingyue/index.html#header12-a2</a></p>
+<p>马来西亚棕榈油<br><a href="https://leefamejie.github.io/malaysiapalmoil/index.html#features22-3y">https://leefamejie.github.io/malaysiapalmoil/index.html#features22-3y</a></p>
+<p>疫情下的泰国旅游业<br><a href="https://zhengyzh666.github.io/tourismTH/index.html#header12-a2">https://zhengyzh666.github.io/tourismTH/index.html#header12-a2</a></p>
+<p>在越南学汉语<br><a href="https://longli21.github.io/Hanoi-University/">https://longli21.github.io/Hanoi-University/</a></p>
+<p>印尼旅游业<br><a href="https://chinnyparamita.github.io/">https://chinnyparamita.github.io/</a></p>
+<p>表白墙<br><a href="https://xytan2000.github.io/bbqkeshihua/">https://xytan2000.github.io/bbqkeshihua/</a></p>
+<p>碳中和<br><a href="https://china-carbon-neutrality.github.io/China-Carbon-Neutrality.html">https://china-carbon-neutrality.github.io/China-Carbon-Neutrality.html</a></p>
+<p>个人简历<br><a href="https://bemen-cell.github.io/">https://bemen-cell.github.io</a><br><a href="https://liangjianqiang10.github.io/">https://liangjianqiang10.github.io/</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>学习！学习！再学习</title>
+    <url>/2020/11/30/study/</url>
+    <content><![CDATA[<h1 id="菜鸟学习用hexo和github搭建主页"><a href="#菜鸟学习用hexo和github搭建主页" class="headerlink" title="菜鸟学习用hexo和github搭建主页"></a>菜鸟学习用hexo和github搭建主页</h1><p>踩了无数坑，看了无数过时的经验贴，花了三天，终于搞定了。<br>这些坑包括：没有在代码中间应该加空格的地方加空格，把- -（两条横杠）写成-（一条横杠），换Theme时的链接是过时无效的，无法生成模板…..</p>
 ]]></content>
   </entry>
 </search>
