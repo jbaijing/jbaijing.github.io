@@ -19,28 +19,28 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.14.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="自选文本进行词频分析练习，导出数据，生成词云图 1、查找数据：  数据源：毛泽东的诗词全集、诗集(89首全)_诗词名句网 (shicimingju.com)  2、爬取数据  使用后羿采集器对网页进行爬取，爬取到毛泽东诗集89首  3、清洗数据  修改数据格式，将爬取的数据中的换行符、空格等删去  4、python词频统计  参见 https:&#x2F;&#x2F;blog.csdn.net&#x2F;laobai1015&#x2F;">
+    <meta name="description" content="在线地图不符合国家标准问题在线引入Echarts地图，除了需要引入echarts.min.js，还需要引入china.js，但由于Echarts原有China地图不是国家标准地图，官方已经停用，因此引入Echarts地图会遇到问题。 另外，引入echarts.min.js时，在线引入经常由于在线链接的变化而导致链接失效，导致Echarts无法正常引入。建议下载最新版echarts.min.js，将">
 <meta property="og:type" content="article">
-<meta property="og:title" content="词频分析">
-<meta property="og:url" content="http://example.com/2021/03/03/Word%20frequency/index.html">
+<meta property="og:title" content="在线引入Echarts地图遇到的问题">
+<meta property="og:url" content="http://example.com/2020/12/04/echarts-map/index.html">
 <meta property="og:site_name" content="Jing&#39;s blog">
-<meta property="og:description" content="自选文本进行词频分析练习，导出数据，生成词云图 1、查找数据：  数据源：毛泽东的诗词全集、诗集(89首全)_诗词名句网 (shicimingju.com)  2、爬取数据  使用后羿采集器对网页进行爬取，爬取到毛泽东诗集89首  3、清洗数据  修改数据格式，将爬取的数据中的换行符、空格等删去  4、python词频统计  参见 https:&#x2F;&#x2F;blog.csdn.net&#x2F;laobai1015&#x2F;">
+<meta property="og:description" content="在线地图不符合国家标准问题在线引入Echarts地图，除了需要引入echarts.min.js，还需要引入china.js，但由于Echarts原有China地图不是国家标准地图，官方已经停用，因此引入Echarts地图会遇到问题。 另外，引入echarts.min.js时，在线引入经常由于在线链接的变化而导致链接失效，导致Echarts无法正常引入。建议下载最新版echarts.min.js，将">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-03-03T02:22:45.000Z">
-<meta property="article:modified_time" content="2021-03-03T03:16:46.000Z">
+<meta property="article:published_time" content="2020-12-04T02:06:07.000Z">
+<meta property="article:modified_time" content="2020-12-04T02:03:22.000Z">
 <meta property="article:author" content="Jing">
 <meta property="article:tag" content="visualization">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://example.com/2021/03/03/Word%20frequency/">
+<link rel="canonical" href="http://example.com/2020/12/04/echarts-map/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"http://example.com/2021/03/03/Word%20frequency/","path":"2021/03/03/Word frequency/","title":"词频分析"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"http://example.com/2020/12/04/echarts-map/","path":"2020/12/04/echarts-map/","title":"在线引入Echarts地图遇到的问题"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>词频分析 | Jing's blog</title>
+<title>在线引入Echarts地图遇到的问题 | Jing's blog</title>
   
 
 
@@ -93,7 +93,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -106,6 +106,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9C%A8%E7%BA%BF%E5%9C%B0%E5%9B%BE%E4%B8%8D%E7%AC%A6%E5%90%88%E5%9B%BD%E5%AE%B6%E6%A0%87%E5%87%86%E9%97%AE%E9%A2%98"><span class="nav-number">1.</span> <span class="nav-text">在线地图不符合国家标准问题</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -146,7 +147,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/03/03/Word%20frequency/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/04/echarts-map/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -159,12 +160,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="词频分析 | Jing's blog">
+      <meta itemprop="name" content="在线引入Echarts地图遇到的问题 | Jing's blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          词频分析
+          在线引入Echarts地图遇到的问题
         </h1>
 
         <div class="post-meta-container">
@@ -176,7 +177,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2021-03-03 10:22:45 / Modified: 11:16:46" itemprop="dateCreated datePublished" datetime="2021-03-03T10:22:45+08:00">2021-03-03</time>
+      <time title="Created: 2020-12-04 10:06:07 / Modified: 10:03:22" itemprop="dateCreated datePublished" datetime="2020-12-04T10:06:07+08:00">2020-12-04</time>
     </span>
 
   
@@ -189,28 +190,13 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>自选文本进行词频分析练习，导出数据，生成词云图</p>
-<p>1、查找数据：</p>
+        <h1 id="在线地图不符合国家标准问题"><a href="#在线地图不符合国家标准问题" class="headerlink" title="在线地图不符合国家标准问题"></a>在线地图不符合国家标准问题</h1><p>在线引入Echarts地图，除了需要引入echarts.min.js，还需要引入china.js，但由于Echarts原有China地图不是国家标准地图，官方已经停用，因此引入Echarts地图会遇到问题。</p>
+<p>另外，引入echarts.min.js时，在线引入经常由于在线链接的变化而导致链接失效，导致Echarts无法正常引入。建议下载最新版echarts.min.js，将其置于与index同一文件夹，这样只要写一句引入代码就可以了。</p>
+<pre><code>&lt;script src=&quot;echarts.min.js&quot;&gt;
+</code></pre>
 <blockquote>
-<p>数据源：毛泽东的诗词全集、诗集(89首全)_诗词名句网 (shicimingju.com)</p>
+<p>[参见Echarts教程] (<a target="_blank" rel="noopener" href="https://echarts.apache.org/zh/tutorial.html">https://echarts.apache.org/zh/tutorial.html</a>)</p>
 </blockquote>
-<p>2、爬取数据</p>
-<blockquote>
-<p>使用后羿采集器对网页进行爬取，爬取到毛泽东诗集89首</p>
-</blockquote>
-<p>3、清洗数据</p>
-<blockquote>
-<p>修改数据格式，将爬取的数据中的换行符、空格等删去</p>
-</blockquote>
-<p>4、python词频统计</p>
-<blockquote>
-<p>参见 <a target="_blank" rel="noopener" href="https://blog.csdn.net/laobai1015/article/details/80420016">https://blog.csdn.net/laobai1015/article/details/80420016</a></p>
-</blockquote>
-<p>5、再次进行数据清洗</p>
-<blockquote>
-<p>对一些介词、单字进行删除</p>
-</blockquote>
-<p>6：导入词云图制作网址，制成词云图</p>
 
     </div>
 
@@ -224,13 +210,13 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2020/12/04/Echarts%20mp/" rel="prev" title="在线引入Echarts地图遇到的问题">
-                  <i class="fa fa-chevron-left"></i> 在线引入Echarts地图遇到的问题
+                <a href="/2020/11/30/study/" rel="prev" title="学习！学习！再学习">
+                  <i class="fa fa-chevron-left"></i> 学习！学习！再学习
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2021/12/18/code%20editor/" rel="next" title="代码编辑器HBuilderX">
-                  代码编辑器HBuilderX <i class="fa fa-chevron-right"></i>
+                <a href="/2021/03/03/sord-frequency/" rel="next" title="词频分析">
+                  词频分析 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
