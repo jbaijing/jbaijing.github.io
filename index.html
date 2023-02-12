@@ -3,12 +3,14 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="manifest" href="/manifest.json">
 
 <link rel="stylesheet" href="/css/main.css">
 
@@ -17,12 +19,14 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha256-Z1K5uhUaJXA7Ll0XrZ/0JhX4lAtZFpT6jkKrEDT0drU=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.14.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.14.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
-    <meta property="og:type" content="website">
+    <meta name="description" content="be hungry be foolish">
+<meta property="og:type" content="blog">
 <meta property="og:title" content="Jing&#39;s blog">
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="Jing&#39;s blog">
+<meta property="og:description" content="be hungry be foolish">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="Jing">
 <meta property="article:tag" content="visualization">
@@ -49,6 +53,7 @@
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
+<link rel="alternate" href="/atom.xml" title="Jing's blog" type="application/atom+xml">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
@@ -59,6 +64,9 @@
       <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="Toggle navigation bar" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
     </div>
   </div>
 
@@ -69,7 +77,6 @@
       <h1 class="site-title">Jing's blog</h1>
       <i class="logo-line"></i>
     </a>
-      <p class="site-subtitle" itemprop="description">be hungry be foolish </p>
   </div>
 
   <div class="site-nav-right">
@@ -80,6 +87,10 @@
 
 
 
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a></li>
+  </ul>
+</nav>
 
 
 
@@ -108,7 +119,7 @@
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">Jing</p>
-  <div class="site-description" itemprop="description"></div>
+  <div class="site-description" itemprop="description">be hungry be foolish</div>
 </div>
 <div class="site-state-wrap animated">
   <nav class="site-state">
@@ -120,6 +131,9 @@
       </div>
   </nav>
 </div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/big/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
 
         </div>
       </div>
@@ -150,7 +164,7 @@
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="Jing's blog">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="be hungry be foolish">
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
@@ -177,7 +191,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-02-12 01:57:35" itemprop="dateModified" datetime="2023-02-12T01:57:35+08:00">2023-02-12</time>
+      <time title="Modified: 2023-02-12 15:21:25" itemprop="dateModified" datetime="2023-02-12T15:21:25+08:00">2023-02-12</time>
     </span>
 
   
@@ -190,16 +204,15 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="Learn-to-set-up-personal-website"><a href="#Learn-to-set-up-personal-website" class="headerlink" title="Learn to set up personal website"></a>Learn to set up personal website</h1><p>新加坡公共住房<br><a target="_blank" rel="noopener" href="https://shjshiny.github.io/sghome/">https://shjshiny.github.io/sghome/</a></p>
-<p> 越南人口生育率<br><a target="_blank" rel="noopener" href="https://rsmingyue.github.io/rsmingyue/index.html#header12-a2">https://rsmingyue.github.io/rsmingyue/index.html#header12-a2</a></p>
-<p>马来西亚棕榈油<br><a target="_blank" rel="noopener" href="https://leefamejie.github.io/malaysiapalmoil/index.html#features22-3y">https://leefamejie.github.io/malaysiapalmoil/index.html#features22-3y</a></p>
-<p>疫情下的泰国旅游业<br><a target="_blank" rel="noopener" href="https://zhengyzh666.github.io/tourismTH/index.html#header12-a2">https://zhengyzh666.github.io/tourismTH/index.html#header12-a2</a></p>
-<p>在越南学汉语<br><a target="_blank" rel="noopener" href="https://longli21.github.io/Hanoi-University/">https://longli21.github.io/Hanoi-University/</a></p>
-<p>印尼旅游业<br><a target="_blank" rel="noopener" href="https://chinnyparamita.github.io/">https://chinnyparamita.github.io/</a></p>
-<p>表白墙<br><a target="_blank" rel="noopener" href="https://xytan2000.github.io/bbqkeshihua/">https://xytan2000.github.io/bbqkeshihua/</a></p>
-<p>碳中和<br><a target="_blank" rel="noopener" href="https://china-carbon-neutrality.github.io/China-Carbon-Neutrality.html">https://china-carbon-neutrality.github.io/China-Carbon-Neutrality.html</a></p>
-<p>个人简历<br><a target="_blank" rel="noopener" href="https://bemen-cell.github.io/">https://bemen-cell.github.io</a><br><a target="_blank" rel="noopener" href="https://liangjianqiang10.github.io/">https://liangjianqiang10.github.io/</a></p>
-
+          <p>Learn to set up personal website </p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2023/02/11/student-web/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -234,7 +247,7 @@
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="Jing's blog">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="be hungry be foolish">
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
@@ -253,9 +266,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2021-12-20 10:06:07 / Modified: 20:29:24" itemprop="dateCreated datePublished" datetime="2021-12-20T10:06:07+08:00">2021-12-20</time>
+      <time title="Created: 2021-12-20 10:06:07" itemprop="dateCreated datePublished" datetime="2021-12-20T10:06:07+08:00">2021-12-20</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-02-12 15:21:09" itemprop="dateModified" datetime="2023-02-12T15:21:09+08:00">2023-02-12</time>
     </span>
 
   
@@ -268,7 +287,8 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="在网页中引入flourish图表"><a href="#在网页中引入flourish图表" class="headerlink" title="在网页中引入flourish图表"></a>在网页中引入flourish图表</h1><ul>
+          <p>在网页中引入flourish图表</p>
+<ul>
 <li>注册<a target="_blank" rel="noopener" href="https://flourish.studio/%EF%BC%8C%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE%EF%BC%8C%E7%94%9F%E6%88%90%E5%9B%BE%E8%A1%A8">https://flourish.studio/，导入数据，生成图表</a></li>
 <li>Export and publish，显示Embed on your website，复制代码</li>
 <li>将复制的代码嵌入网页</li>
@@ -308,7 +328,7 @@
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="Jing's blog">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="be hungry be foolish">
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
@@ -327,9 +347,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2021-12-18 10:06:07 / Modified: 22:10:52" itemprop="dateCreated datePublished" datetime="2021-12-18T10:06:07+08:00">2021-12-18</time>
+      <time title="Created: 2021-12-18 10:06:07" itemprop="dateCreated datePublished" datetime="2021-12-18T10:06:07+08:00">2021-12-18</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-02-12 15:20:45" itemprop="dateModified" datetime="2023-02-12T15:20:45+08:00">2023-02-12</time>
     </span>
 
   
@@ -342,14 +368,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="使用代码编辑器HBuilderX制作网页"><a href="#使用代码编辑器HBuilderX制作网页" class="headerlink" title="使用代码编辑器HBuilderX制作网页"></a>使用代码编辑器HBuilderX制作网页</h1><p>HBuilderX，简称HX。 H是HTML的首字母，Builder是构造者，X是HBuilder的下一代版本。<br>HX既可以是编辑器，也可以是IDE（集成开发环境，使程序员能够整合编写计算机程序的不同方面）。</p>
-<p>下载地址：<a target="_blank" rel="noopener" href="https://www.dcloud.io/hbuilderx.html">https://www.dcloud.io/hbuilderx.html</a></p>
-<p>支持java插件、nodejs插件，并兼容了很多vscode的插件及代码块。 还可以通过外部命令，方便地调用各种命令行功能，并设置快捷键。</p>
-<p>可在网页里引入flourish、tableau、echarts在线数据图。</p>
-<blockquote>
-<p>[参见HX教程] (<a target="_blank" rel="noopener" href="https://www.dcloud.io/hbuilderx.html">https://www.dcloud.io/hbuilderx.html</a>)</p>
-</blockquote>
-
+          <p>使用代码编辑器HBuilderX制作网页</p>
+<p>HBuilderX，简称HX。 H是HTML的首字母，Builder是构造者，X是HBuilder的下一代版本。<br>HX既可以是编辑器，也可以是IDE（集成开发环境，使程序员能够整合编写计算机程序的不同方面）。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/12/18/code-editor/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -375,7 +403,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/03/03/sord-frequency/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/03/03/word-frequency/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -384,7 +412,7 @@
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="Jing's blog">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="be hungry be foolish">
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
@@ -393,7 +421,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/03/03/sord-frequency/" class="post-title-link" itemprop="url">词频分析</a>
+          <a href="/2021/03/03/word-frequency/" class="post-title-link" itemprop="url">词频分析</a>
         </h2>
 
         <div class="post-meta-container">
@@ -403,9 +431,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2021-03-03 10:22:45 / Modified: 11:16:46" itemprop="dateCreated datePublished" datetime="2021-03-03T10:22:45+08:00">2021-03-03</time>
+      <time title="Created: 2021-03-03 10:22:45" itemprop="dateCreated datePublished" datetime="2021-03-03T10:22:45+08:00">2021-03-03</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-02-12 15:17:05" itemprop="dateModified" datetime="2023-02-12T15:17:05+08:00">2023-02-12</time>
     </span>
 
   
@@ -419,28 +453,14 @@
     
     <div class="post-body" itemprop="articleBody">
           <p>自选文本进行词频分析练习，导出数据，生成词云图</p>
-<p>1、查找数据：</p>
-<blockquote>
-<p>数据源：毛泽东的诗词全集、诗集(89首全)_诗词名句网 (shicimingju.com)</p>
-</blockquote>
-<p>2、爬取数据</p>
-<blockquote>
-<p>使用后羿采集器对网页进行爬取，爬取到毛泽东诗集89首</p>
-</blockquote>
-<p>3、清洗数据</p>
-<blockquote>
-<p>修改数据格式，将爬取的数据中的换行符、空格等删去</p>
-</blockquote>
-<p>4、python词频统计</p>
-<blockquote>
-<p>参见 <a target="_blank" rel="noopener" href="https://blog.csdn.net/laobai1015/article/details/80420016">https://blog.csdn.net/laobai1015/article/details/80420016</a></p>
-</blockquote>
-<p>5、再次进行数据清洗</p>
-<blockquote>
-<p>对一些介词、单字进行删除</p>
-</blockquote>
-<p>6：导入词云图制作网址，制成词云图</p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/03/03/word-frequency/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -475,7 +495,7 @@
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="Jing's blog">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="be hungry be foolish">
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
@@ -494,9 +514,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2020-12-04 10:06:07 / Modified: 10:03:22" itemprop="dateCreated datePublished" datetime="2020-12-04T10:06:07+08:00">2020-12-04</time>
+      <time title="Created: 2020-12-04 10:06:07" itemprop="dateCreated datePublished" datetime="2020-12-04T10:06:07+08:00">2020-12-04</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-02-12 15:20:56" itemprop="dateModified" datetime="2023-02-12T15:20:56+08:00">2023-02-12</time>
     </span>
 
   
@@ -509,14 +535,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="在线地图不符合国家标准问题"><a href="#在线地图不符合国家标准问题" class="headerlink" title="在线地图不符合国家标准问题"></a>在线地图不符合国家标准问题</h1><p>在线引入Echarts地图，除了需要引入echarts.min.js，还需要引入china.js，但由于Echarts原有China地图不是国家标准地图，官方已经停用，因此引入Echarts地图会遇到问题。</p>
-<p>另外，引入echarts.min.js时，在线引入经常由于在线链接的变化而导致链接失效，导致Echarts无法正常引入。建议下载最新版echarts.min.js，将其置于与index同一文件夹，这样只要写一句引入代码就可以了。</p>
-<pre><code>&lt;script src=&quot;echarts.min.js&quot;&gt;
-</code></pre>
-<blockquote>
-<p>[参见Echarts教程] (<a target="_blank" rel="noopener" href="https://echarts.apache.org/zh/tutorial.html">https://echarts.apache.org/zh/tutorial.html</a>)</p>
-</blockquote>
-
+          <p>在线地图不符合国家标准问题</p>
+<p>在线引入Echarts地图，除了需要引入echarts.min.js，还需要引入china.js，但由于Echarts原有China地图不是国家标准地图，官方已经停用，因此引入Echarts地图会遇到问题。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/12/04/echarts-map/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -551,7 +579,7 @@
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="Jing's blog">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="be hungry be foolish">
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
@@ -578,7 +606,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2020-12-01 15:15:56" itemprop="dateModified" datetime="2020-12-01T15:15:56+08:00">2020-12-01</time>
+      <time title="Modified: 2023-02-12 15:21:34" itemprop="dateModified" datetime="2023-02-12T15:21:34+08:00">2023-02-12</time>
     </span>
 
   
@@ -591,8 +619,15 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="菜鸟学习用hexo和github搭建主页"><a href="#菜鸟学习用hexo和github搭建主页" class="headerlink" title="菜鸟学习用hexo和github搭建主页"></a>菜鸟学习用hexo和github搭建主页</h1><p>踩了无数坑，看了无数过时的经验贴，花了三天，终于搞定了。<br>这些坑包括：没有在代码中间应该加空格的地方加空格，把- -（两条横杠）写成-（一条横杠），换Theme时的链接是过时无效的，无法生成模板…..</p>
-
+          <p>菜鸟学习用hexo和github搭建主页</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/11/30/study/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -627,7 +662,7 @@
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="Jing's blog">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="be hungry be foolish">
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
@@ -654,7 +689,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2020-12-01 11:50:28" itemprop="dateModified" datetime="2020-12-01T11:50:28+08:00">2020-12-01</time>
+      <time title="Modified: 2023-02-12 15:21:16" itemprop="dateModified" datetime="2023-02-12T15:21:16+08:00">2023-02-12</time>
     </span>
 
   
@@ -667,15 +702,15 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="用hexo和github搭建个人博客踩的最大的坑"><a href="#用hexo和github搭建个人博客踩的最大的坑" class="headerlink" title="用hexo和github搭建个人博客踩的最大的坑"></a>用hexo和github搭建个人博客踩的最大的坑</h1><p>2020年10月1日起，在github上创建的任何新仓库都将使用main作为默认分支，而不是master。</p>
-<p>因此，在hexo的_config里，要将以下代码做修改</p>
-<blockquote>
-<p>Deploy<br>  type: git<br>  repo: <a target="_blank" rel="noopener" href="https://github.com/yourname/yourname.github.io.git">https://github.com/yourname/yourname.github.io.git</a><br>  branch: main</p>
-</blockquote>
-<blockquote>
-<p>注意，branch以前是master，现在要改为main</p>
-</blockquote>
-
+          <p>用hexo和github搭建个人博客踩的最大的坑<br>2020年10月1日起，在github上创建的任何新仓库都将使用main作为默认分支，而不是master。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/11/30/master-to-main/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -709,19 +744,13 @@
   </span>
   <span class="author" itemprop="copyrightHolder">Jing</span>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a>
   </div>
 
     </div>
   </footer>
 
   
-  <div class="toggle sidebar-toggle" role="button">
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
-  </div>
-  <div class="sidebar-dimmer"></div>
   <div class="back-to-top" role="button" aria-label="Back to top">
     <i class="fa fa-arrow-up fa-lg"></i>
     <span>0%</span>
@@ -734,7 +763,7 @@
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
 
   
 
