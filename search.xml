@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>学生作业--搭建网站</title>
+    <url>/2023/02/11/student-web/</url>
+    <content><![CDATA[<p>Learn to set up personal website </p>
+<span id="more"></span>
+<p>马来西亚棕榈油<br><a href="https://leefamejie.github.io/malaysiapalmoil/index.html#features22-3y">https://leefamejie.github.io/malaysiapalmoil/index.html#features22-3y</a></p>
+<p>新加坡公共住房<br><a href="https://shjshiny.github.io/sghome/">https://shjshiny.github.io/sghome/</a></p>
+<p> 越南人口生育率<br><a href="https://rsmingyue.github.io/rsmingyue/index.html#header12-a2">https://rsmingyue.github.io/rsmingyue/index.html#header12-a2</a></p>
+<p>疫情下的泰国旅游业<br><a href="https://zhengyzh666.github.io/tourismTH/index.html#header12-a2">https://zhengyzh666.github.io/tourismTH/index.html#header12-a2</a></p>
+<p>在越南学汉语<br><a href="https://longli21.github.io/Hanoi-University/">https://longli21.github.io/Hanoi-University/</a></p>
+<p>印尼旅游业<br><a href="https://chinnyparamita.github.io/">https://chinnyparamita.github.io/</a></p>
+<p>表白墙<br><a href="https://xytan2000.github.io/bbqkeshihua/">https://xytan2000.github.io/bbqkeshihua/</a></p>
+<p>碳中和<br><a href="https://china-carbon-neutrality.github.io/China-Carbon-Neutrality.html">https://china-carbon-neutrality.github.io/China-Carbon-Neutrality.html</a></p>
+<p>个人简历<br><a href="https://bemen-cell.github.io/">https://bemen-cell.github.io</a><br><a href="https://liangjianqiang10.github.io/">https://liangjianqiang10.github.io/</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>代码编辑器HBuilderX</title>
+    <url>/2021/12/18/code-editor/</url>
+    <content><![CDATA[<p>使用代码编辑器HBuilderX制作网页</p>
+<p>HBuilderX，简称HX。 H是HTML的首字母，Builder是构造者，X是HBuilder的下一代版本。<br>HX既可以是编辑器，也可以是IDE（集成开发环境，使程序员能够整合编写计算机程序的不同方面）。</p>
+<span id="more"></span>
+
+<p>下载地址：<a href="https://www.dcloud.io/hbuilderx.html">https://www.dcloud.io/hbuilderx.html</a></p>
+<p>支持java插件、nodejs插件，并兼容了很多vscode的插件及代码块。 还可以通过外部命令，方便地调用各种命令行功能，并设置快捷键。</p>
+<p>可在网页里引入flourish、tableau、echarts在线数据图。</p>
+<blockquote>
+<p>[参见HX教程] (<a href="https://www.dcloud.io/hbuilderx.html">https://www.dcloud.io/hbuilderx.html</a>)</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
     <title>在线引入Echarts地图遇到的问题</title>
     <url>/2020/12/04/echarts-map/</url>
     <content><![CDATA[<p>在线地图不符合国家标准问题</p>
@@ -26,56 +57,6 @@
 <blockquote>
 <p>注意，branch以前是master，现在要改为main</p>
 </blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>代码编辑器HBuilderX</title>
-    <url>/2021/12/18/code-editor/</url>
-    <content><![CDATA[<p>使用代码编辑器HBuilderX制作网页</p>
-<p>HBuilderX，简称HX。 H是HTML的首字母，Builder是构造者，X是HBuilder的下一代版本。<br>HX既可以是编辑器，也可以是IDE（集成开发环境，使程序员能够整合编写计算机程序的不同方面）。</p>
-<span id="more"></span>
-
-<p>下载地址：<a href="https://www.dcloud.io/hbuilderx.html">https://www.dcloud.io/hbuilderx.html</a></p>
-<p>支持java插件、nodejs插件，并兼容了很多vscode的插件及代码块。 还可以通过外部命令，方便地调用各种命令行功能，并设置快捷键。</p>
-<p>可在网页里引入flourish、tableau、echarts在线数据图。</p>
-<blockquote>
-<p>[参见HX教程] (<a href="https://www.dcloud.io/hbuilderx.html">https://www.dcloud.io/hbuilderx.html</a>)</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>在线引入flourish图表</title>
-    <url>/2021/12/20/flourish/</url>
-    <content><![CDATA[<p>在网页中引入flourish图表</p>
-<ul>
-<li>注册<a href="https://flourish.studio/%EF%BC%8C%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE%EF%BC%8C%E7%94%9F%E6%88%90%E5%9B%BE%E8%A1%A8">https://flourish.studio/，导入数据，生成图表</a></li>
-<li>Export and publish，显示Embed on your website，复制代码</li>
-<li>将复制的代码嵌入网页</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>学习！学习！再学习</title>
-    <url>/2020/11/30/study/</url>
-    <content><![CDATA[<p>菜鸟学习用hexo和github搭建主页</p>
-<span id="more"></span>
-<p>踩了无数坑，看了无数过时的经验贴，花了三天，终于搞定了。<br>这些坑包括：没有在代码中间应该加空格的地方加空格，把- -（两条横杠）写成-（一条横杠），换Theme时的链接是过时无效的，无法生成模板…..</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>学生作业--搭建网站</title>
-    <url>/2023/02/11/student-web/</url>
-    <content><![CDATA[<p>Learn to set up personal website </p>
-<span id="more"></span>
-<p>马来西亚棕榈油<br><a href="https://leefamejie.github.io/malaysiapalmoil/index.html#features22-3y">https://leefamejie.github.io/malaysiapalmoil/index.html#features22-3y</a></p>
-<p>新加坡公共住房<br><a href="https://shjshiny.github.io/sghome/">https://shjshiny.github.io/sghome/</a></p>
-<p> 越南人口生育率<br><a href="https://rsmingyue.github.io/rsmingyue/index.html#header12-a2">https://rsmingyue.github.io/rsmingyue/index.html#header12-a2</a></p>
-<p>疫情下的泰国旅游业<br><a href="https://zhengyzh666.github.io/tourismTH/index.html#header12-a2">https://zhengyzh666.github.io/tourismTH/index.html#header12-a2</a></p>
-<p>在越南学汉语<br><a href="https://longli21.github.io/Hanoi-University/">https://longli21.github.io/Hanoi-University/</a></p>
-<p>印尼旅游业<br><a href="https://chinnyparamita.github.io/">https://chinnyparamita.github.io/</a></p>
-<p>表白墙<br><a href="https://xytan2000.github.io/bbqkeshihua/">https://xytan2000.github.io/bbqkeshihua/</a></p>
-<p>碳中和<br><a href="https://china-carbon-neutrality.github.io/China-Carbon-Neutrality.html">https://china-carbon-neutrality.github.io/China-Carbon-Neutrality.html</a></p>
-<p>个人简历<br><a href="https://bemen-cell.github.io/">https://bemen-cell.github.io</a><br><a href="https://liangjianqiang10.github.io/">https://liangjianqiang10.github.io/</a></p>
 ]]></content>
   </entry>
   <entry>
@@ -105,6 +86,25 @@
 <p>对一些介词、单字进行删除</p>
 </blockquote>
 <p>6：导入词云图制作网址，制成词云图</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>在线引入flourish图表</title>
+    <url>/2021/12/20/flourish/</url>
+    <content><![CDATA[<p>在网页中引入flourish图表</p>
+<ul>
+<li>注册<a href="https://flourish.studio/%EF%BC%8C%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE%EF%BC%8C%E7%94%9F%E6%88%90%E5%9B%BE%E8%A1%A8">https://flourish.studio/，导入数据，生成图表</a></li>
+<li>Export and publish，显示Embed on your website，复制代码</li>
+<li>将复制的代码嵌入网页</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>学习！学习！再学习</title>
+    <url>/2020/11/30/study/</url>
+    <content><![CDATA[<p>菜鸟学习用hexo和github搭建主页</p>
+<span id="more"></span>
+<p>踩了无数坑，看了无数过时的经验贴，花了三天，终于搞定了。<br>这些坑包括：没有在代码中间应该加空格的地方加空格，把- -（两条横杠）写成-（一条横杠），换Theme时的链接是过时无效的，无法生成模板…..</p>
 ]]></content>
   </entry>
 </search>
