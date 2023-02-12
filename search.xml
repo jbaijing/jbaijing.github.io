@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>在线引入Echarts地图遇到的问题</title>
+    <url>/2020/12/04/echarts-map/</url>
+    <content><![CDATA[<p>在线地图不符合国家标准问题</p>
+<p>在线引入Echarts地图，除了需要引入echarts.min.js，还需要引入china.js，但由于Echarts原有China地图不是国家标准地图，官方已经停用，因此引入Echarts地图会遇到问题。</p>
+<span id="more"></span>
+<p>另外，引入echarts.min.js时，在线引入经常由于在线链接的变化而导致链接失效，导致Echarts无法正常引入。建议下载最新版echarts.min.js，将其置于与index同一文件夹，这样只要写一句引入代码就可以了。</p>
+<pre><code>&lt;script src=&quot;echarts.min.js&quot;&gt;
+</code></pre>
+<blockquote>
+<p>[参见Echarts教程] (<a href="https://echarts.apache.org/zh/tutorial.html">https://echarts.apache.org/zh/tutorial.html</a>)</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
     <title>在线引入flourish图表</title>
     <url>/2021/12/20/flourish/</url>
     <content><![CDATA[<p>在网页中引入flourish图表</p>
@@ -23,20 +37,6 @@
 <p>可在网页里引入flourish、tableau、echarts在线数据图。</p>
 <blockquote>
 <p>[参见HX教程] (<a href="https://www.dcloud.io/hbuilderx.html">https://www.dcloud.io/hbuilderx.html</a>)</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>在线引入Echarts地图遇到的问题</title>
-    <url>/2020/12/04/echarts-map/</url>
-    <content><![CDATA[<p>在线地图不符合国家标准问题</p>
-<p>在线引入Echarts地图，除了需要引入echarts.min.js，还需要引入china.js，但由于Echarts原有China地图不是国家标准地图，官方已经停用，因此引入Echarts地图会遇到问题。</p>
-<span id="more"></span>
-<p>另外，引入echarts.min.js时，在线引入经常由于在线链接的变化而导致链接失效，导致Echarts无法正常引入。建议下载最新版echarts.min.js，将其置于与index同一文件夹，这样只要写一句引入代码就可以了。</p>
-<pre><code>&lt;script src=&quot;echarts.min.js&quot;&gt;
-</code></pre>
-<blockquote>
-<p>[参见Echarts教程] (<a href="https://echarts.apache.org/zh/tutorial.html">https://echarts.apache.org/zh/tutorial.html</a>)</p>
 </blockquote>
 ]]></content>
   </entry>
