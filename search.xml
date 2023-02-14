@@ -12,20 +12,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>在线引入Echarts地图遇到的问题</title>
-    <url>/2020/12/04/echarts-map/</url>
-    <content><![CDATA[<p>在线地图不符合国家标准问题</p>
-<p>在线引入Echarts地图，除了需要引入echarts.min.js，还需要引入china.js，但由于Echarts原有China地图不是国家标准地图，官方已经停用，因此引入Echarts地图会遇到问题。</p>
-<span id="more"></span>
-<p>另外，引入echarts.min.js时，在线引入经常由于在线链接的变化而导致链接失效，导致Echarts无法正常引入。建议下载最新版echarts.min.js，将其置于与index同一文件夹，这样只要写一句引入代码就可以了。</p>
-<pre><code>&lt;script src=&quot;echarts.min.js&quot;&gt;
-</code></pre>
-<blockquote>
-<p>[参见Echarts教程] (<a href="https://echarts.apache.org/zh/tutorial.html">https://echarts.apache.org/zh/tutorial.html</a>)</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
     <title>代码编辑器HBuilderX</title>
     <url>/2021/12/18/code-editor/</url>
     <content><![CDATA[<p>使用代码编辑器HBuilderX制作网页</p>
@@ -37,20 +23,6 @@
 <p>可在网页里引入flourish、tableau、echarts在线数据图。</p>
 <blockquote>
 <p>[参见HX教程] (<a href="https://www.dcloud.io/hbuilderx.html">https://www.dcloud.io/hbuilderx.html</a>)</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>master改为main的影响</title>
-    <url>/2020/11/30/master-to-main/</url>
-    <content><![CDATA[<p>用hexo和github搭建个人博客踩的最大的坑<br>2020年10月1日起，在github上创建的任何新仓库都将使用main作为默认分支，而不是master。</p>
-<span id="more"></span>
-<p>因此，在hexo的_config里，要将以下代码做修改</p>
-<blockquote>
-<p>Deploy<br>  type: git<br>  repo: <a href="https://github.com/yourname/yourname.github.io.git">https://github.com/yourname/yourname.github.io.git</a><br>  branch: main</p>
-</blockquote>
-<blockquote>
-<p>注意，branch以前是master，现在要改为main</p>
 </blockquote>
 ]]></content>
   </entry>
@@ -71,11 +43,31 @@
 ]]></content>
   </entry>
   <entry>
-    <title>学习！学习！再学习</title>
-    <url>/2020/11/30/study/</url>
-    <content><![CDATA[<p>菜鸟学习用hexo和github搭建主页</p>
+    <title>master改为main的影响</title>
+    <url>/2020/11/30/master-to-main/</url>
+    <content><![CDATA[<p>用hexo和github搭建个人博客踩的最大的坑<br>2020年10月1日起，在github上创建的任何新仓库都将使用main作为默认分支，而不是master。</p>
 <span id="more"></span>
-<p>踩了无数坑，看了无数过时的经验贴，花了三天，终于搞定了。<br>这些坑包括：没有在代码中间应该加空格的地方加空格，把- -（两条横杠）写成-（一条横杠），换Theme时的链接是过时无效的，无法生成模板…..</p>
+<p>因此，在hexo的_config里，要将以下代码做修改</p>
+<blockquote>
+<p>Deploy<br>  type: git<br>  repo: <a href="https://github.com/yourname/yourname.github.io.git">https://github.com/yourname/yourname.github.io.git</a><br>  branch: main</p>
+</blockquote>
+<blockquote>
+<p>注意，branch以前是master，现在要改为main</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>在线引入Echarts地图遇到的问题</title>
+    <url>/2020/12/04/echarts-map/</url>
+    <content><![CDATA[<p>在线地图不符合国家标准问题</p>
+<p>在线引入Echarts地图，除了需要引入echarts.min.js，还需要引入china.js，但由于Echarts原有China地图不是国家标准地图，官方已经停用，因此引入Echarts地图会遇到问题。</p>
+<span id="more"></span>
+<p>另外，引入echarts.min.js时，在线引入经常由于在线链接的变化而导致链接失效，导致Echarts无法正常引入。建议下载最新版echarts.min.js，将其置于与index同一文件夹，这样只要写一句引入代码就可以了。</p>
+<pre><code>&lt;script src=&quot;echarts.min.js&quot;&gt;
+</code></pre>
+<blockquote>
+<p>[参见Echarts教程] (<a href="https://echarts.apache.org/zh/tutorial.html">https://echarts.apache.org/zh/tutorial.html</a>)</p>
+</blockquote>
 ]]></content>
   </entry>
   <entry>
@@ -105,6 +97,14 @@
 <p>对一些介词、单字进行删除</p>
 </blockquote>
 <p>6：导入词云图制作网址，制成词云图</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>学习！学习！再学习</title>
+    <url>/2020/11/30/study/</url>
+    <content><![CDATA[<p>菜鸟学习用hexo和github搭建主页</p>
+<span id="more"></span>
+<p>踩了无数坑，看了无数过时的经验贴，花了三天，终于搞定了。<br>这些坑包括：没有在代码中间应该加空格的地方加空格，把- -（两条横杠）写成-（一条横杠），换Theme时的链接是过时无效的，无法生成模板…..</p>
 ]]></content>
   </entry>
 </search>
