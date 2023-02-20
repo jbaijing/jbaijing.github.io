@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-02-20T00:54:48.329Z</updated>
+  <updated>2023-02-20T01:18:45.314Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>用ChatGPT写课程大纲</title>
+    <link href="http://example.com/2023/02/18/Syllabus-chatGPT/"/>
+    <id>http://example.com/2023/02/18/Syllabus-chatGPT/</id>
+    <published>2023-02-18T02:06:07.000Z</published>
+    <updated>2023-02-20T01:18:45.314Z</updated>
+    
+    <content type="html"><![CDATA[<p>让ChatGPT 写了6门课的课程大纲，这里展示其中1门课。</p><span id="more"></span><p><em>Course Title: Information Visualization: Designing Effective and Engaging Visualizations</em></p><p>Course Description: This course will introduce you to the principles and best practices of information visualization, and provide you with the tools and techniques you need to design effective and engaging visualizations for a variety of applications.</p><p>Course Goals:</p><p>-Understand the principles of information visualization<br>-Learn how to choose appropriate visualization techniques for different data types and tasks<br>-Develop skills in designing and implementing visualizations using software tools<br>-Evaluate the effectiveness and usability of visualizations</p><p>Course Outline:</p><p>I. Introduction to Information Visualization<br>-What is information visualization?<br>-The importance of effective visualization<br>-Overview of the course</p><p>II. Principles of Information Visualization<br>-Perception and cognition<br>-Visualization design principles<br>-Types of visualization techniques</p><p>III. Data Types and Visualization Techniques<br>-Visualizing hierarchical data<br>-Visualizing temporal and spatial data<br>-Visualizing network and graph data<br>-Visualizing multidimensional data</p><p>IV. Designing Effective Visualizations<br>-Defining visualization objectives and tasks<br>-Designing effective visualizations<br>-Choosing appropriate visual encoding techniques<br>-Tools and software for visualization design and development</p><p>V. Evaluating and Testing Visualizations<br>-Principles of user-centered design<br>-Usability testing and evaluation<br>-Cognitive walkthroughs and heuristic evaluation<br>-Gathering feedback and iterating on design</p><p>VI. Advanced Topics in Information Visualization<br>-Interactive visualizations and dashboards<br>-Visualization for machine learning and AI applications<br>-Visualization for scientific and engineering data<br>-Ethical considerations in visualization design and use</p><p>VII. Practicing Visualization Design Skills<br>-Visualization design exercises and assignments<br>-Group projects and presentations<br>-Feedback and evaluation</p><p>Course Requirements:<br>-Regular attendance and participation in class<br>-Completion of assigned readings and exercises<br>-Active engagement in discussions and group projects<br>-Final project and presentation</p><p>Assessment:<br>-Class participation and engagement: 20%<br>-Assignments and exercises: 30%<br>-Group project and presentation: 30%<br>-Final project and presentation: 20%</p><p>This is just one possible outline for a course on information visualization. Depending on the target audience and course objectives, other topics could be added or removed. The important thing is to provide students with the knowledge and skills they need to create effective and engaging visualizations for a wide range of applications.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;让ChatGPT 写了6门课的课程大纲，这里展示其中1门课。&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>用ChatGPT写Python代码</title>
@@ -34,16 +51,16 @@
   </entry>
   
   <entry>
-    <title>用ChatGPT写课程大纲</title>
-    <link href="http://example.com/2023/02/18/Syllabus-chatGPT/"/>
-    <id>http://example.com/2023/02/18/Syllabus-chatGPT/</id>
+    <title>人类最大的敌人是？看ChatGPT如何回答？</title>
+    <link href="http://example.com/2023/02/18/enemy/"/>
+    <id>http://example.com/2023/02/18/enemy/</id>
     <published>2023-02-18T02:06:07.000Z</published>
-    <updated>2023-02-20T01:00:46.937Z</updated>
+    <updated>2023-02-20T01:28:01.553Z</updated>
     
-    <content type="html"><![CDATA[<p>让ChatGPT 写了6门课的课程大纲，看上去还可以。这里展示其中1门课。</p><span id="more"></span><p>ourse Title: Information Visualization: Designing Effective and Engaging Visualizations</p><p>Course Description: This course will introduce you to the principles and best practices of information visualization, and provide you with the tools and techniques you need to design effective and engaging visualizations for a variety of applications.</p><p>Course Goals:</p><p>-Understand the principles of information visualization<br>-Learn how to choose appropriate visualization techniques for different data types and tasks<br>-Develop skills in designing and implementing visualizations using software tools<br>-Evaluate the effectiveness and usability of visualizations</p><p>Course Outline:</p><p>I. Introduction to Information Visualization<br>-What is information visualization?<br>-The importance of effective visualization<br>-Overview of the course</p><p>II. Principles of Information Visualization<br>-Perception and cognition<br>-Visualization design principles<br>-Types of visualization techniques</p><p>III. Data Types and Visualization Techniques<br>-Visualizing hierarchical data<br>-Visualizing temporal and spatial data<br>-Visualizing network and graph data<br>-Visualizing multidimensional data</p><p>IV. Designing Effective Visualizations<br>-Defining visualization objectives and tasks<br>-Designing effective visualizations<br>-Choosing appropriate visual encoding techniques<br>-Tools and software for visualization design and development</p><p>V. Evaluating and Testing Visualizations<br>-Principles of user-centered design<br>-Usability testing and evaluation<br>-Cognitive walkthroughs and heuristic evaluation<br>-Gathering feedback and iterating on design</p><p>VI. Advanced Topics in Information Visualization<br>-Interactive visualizations and dashboards<br>-Visualization for machine learning and AI applications<br>-Visualization for scientific and engineering data<br>-Ethical considerations in visualization design and use</p><p>VII. Practicing Visualization Design Skills<br>-Visualization design exercises and assignments<br>-Group projects and presentations<br>-Feedback and evaluation</p><p>Course Requirements:<br>-Regular attendance and participation in class<br>-Completion of assigned readings and exercises<br>-Active engagement in discussions and group projects<br>-Final project and presentation</p><p>Assessment:<br>-Class participation and engagement: 20%<br>-Assignments and exercises: 30%<br>-Group project and presentation: 30%<br>-Final project and presentation: 20%</p><p>This is just one possible outline for a course on information visualization. Depending on the target audience and course objectives, other topics could be added or removed. The important thing is to provide students with the knowledge and skills they need to create effective and engaging visualizations for a wide range of applications.</p>]]></content>
+    <content type="html"><![CDATA[<p>问ChatGPT，人类最大的敌人是谁？它用英文回答，似乎比中文回答要好得多。如果这是一篇作文，你给它多少分？</p><span id="more"></span><p>The biggest enemy of human</p><blockquote><p>Humans have many enemies, but the biggest enemy of all is themselves.<br>Human beings have the capacity to create their own problems, and these problems can be caused by a variety of factors.<br>The most common enemy of humans is their own ignorance. Ignorance can lead to bad decisions, which can have long-term consequences. For example, people may not understand the consequences of their actions, such as the effects of pollution on the environment. Ignorance can also lead to prejudice, which can cause people to make unfair decisions based on false information or stereotypes.<br>Another enemy of humans is their own greed. Greed can lead people to pursue wealth and power at the expense of others. This can create an unequal society where the rich get richer and the poor get poorer. Greed can also lead to corruption, which can have serious consequences for society.<br>Finally, humans are their own worst enemy when it comes to their health. People often make poor choices when it comes to their diet and exercise, leading to health problems such as obesity and heart disease. People may also be exposed to dangerous chemicals or pollutants, leading to long-term health problems.</p></blockquote>]]></content>
     
     
-    <summary type="html">&lt;p&gt;让ChatGPT 写了6门课的课程大纲，看上去还可以。这里展示其中1门课。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;问ChatGPT，人类最大的敌人是谁？它用英文回答，似乎比中文回答要好得多。如果这是一篇作文，你给它多少分？&lt;/p&gt;</summary>
     
     
     
@@ -55,29 +72,12 @@
     <link href="http://example.com/2023/02/18/html-study-chatGPT/"/>
     <id>http://example.com/2023/02/18/html-study-chatGPT/</id>
     <published>2023-02-18T02:06:07.000Z</published>
-    <updated>2023-02-20T01:12:14.144Z</updated>
+    <updated>2023-02-20T01:25:42.946Z</updated>
     
-    <content type="html"><![CDATA[<p>让ChatGPT 写HTML，它说还没有这个技能，但可以推荐自学网站。以下是它推荐的5个网站。</p><span id="more"></span><p>[W3Schools] (<a href="https://www.w3schools.com/html/">https://www.w3schools.com/html/</a>)<br>This website provides comprehensive tutorials and references on HTML, CSS, JavaScript, and other web development technologies. It is a great resource for beginners who want to learn how to build web pages.</p><p>[Codecademy] (<a href="https://www.codecademy.com/learn/learn-html">https://www.codecademy.com/learn/learn-html</a>)<br>Codecademy is an interactive online learning platform that offers courses on a variety of programming languages and web development technologies, including HTML. It provides a hands-on approach to learning, allowing you to practice coding as you learn.</p><p>[Mozilla Developer Network] (<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML">https://developer.mozilla.org/en-US/docs/Learn/HTML</a>)<br>The Mozilla Developer Network provides a wealth of resources and tutorials on web development, including HTML. It is a great resource for both beginners and advanced users who want to learn more about web development.</p><p>[HTML5up] (<a href="https://html5up.net/">https://html5up.net/</a>)<br>HTML5up is a website that provides free HTML templates that you can use to build your own web pages. These templates are designed to be responsive and easy to use, and can be a great starting point for building your own website.</p><p>[GitHub Pages] (<a href="https://pages.github.com/">https://pages.github.com/</a>)<br>GitHub Pages is a free web hosting service provided by GitHub. You can use it to host your own static web pages, including those built with HTML. It is a great way to get your web page online without having to pay for hosting.</p>]]></content>
+    <content type="html"><![CDATA[<p>让ChatGPT 写HTML，它说还没有这个技能，但可以推荐自学网站。以下是它推荐的5个网站。</p><span id="more"></span><p><a href="https://www.w3schools.com/html">https://www.w3schools.com/html</a><br>This website provides comprehensive tutorials and references on HTML, CSS, JavaScript, and other web development technologies. It is a great resource for beginners who want to learn how to build web pages.</p><p><a href="https://www.codecademy.com/learn/learn-html">https://www.codecademy.com/learn/learn-html</a><br>Codecademy is an interactive online learning platform that offers courses on a variety of programming languages and web development technologies, including HTML. It provides a hands-on approach to learning, allowing you to practice coding as you learn.</p><p><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML">https://developer.mozilla.org/en-US/docs/Learn/HTML</a><br>The Mozilla Developer Network provides a wealth of resources and tutorials on web development, including HTML. It is a great resource for both beginners and advanced users who want to learn more about web development.</p><p><a href="https://html5up.net/">https://html5up.net</a><br>HTML5up is a website that provides free HTML templates that you can use to build your own web pages. These templates are designed to be responsive and easy to use, and can be a great starting point for building your own website.</p><p><a href="https://pages.github.com/">https://pages.github.com</a><br>GitHub Pages is a free web hosting service provided by GitHub. You can use it to host your own static web pages, including those built with HTML. It is a great way to get your web page online without having to pay for hosting.</p>]]></content>
     
     
     <summary type="html">&lt;p&gt;让ChatGPT 写HTML，它说还没有这个技能，但可以推荐自学网站。以下是它推荐的5个网站。&lt;/p&gt;</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>人类最大的敌人是？看ChatGPT如何回答？</title>
-    <link href="http://example.com/2023/02/18/enemy%20of%20human/"/>
-    <id>http://example.com/2023/02/18/enemy%20of%20human/</id>
-    <published>2023-02-18T02:06:07.000Z</published>
-    <updated>2023-02-20T01:11:18.689Z</updated>
-    
-    <content type="html"><![CDATA[<p>问ChatGPT，人类最大的敌人是谁？它用英文回答，似乎比中文回答要好得多。如果这是一篇作文，你给它多少分？</p><span id="more"></span><p>The biggest enemy of human</p><blockquote><p>blockquote<br>Humans have many enemies, but the biggest enemy of all is themselves. Human beings have the capacity to create their own problems, and these problems can be caused by a variety of factors.  The most common enemy of humans is their own ignorance. Ignorance can lead to bad decisions, which can have long-term consequences. For example, people may not understand the consequences of their actions, such as the effects of pollution on the environment. Ignorance can also lead to prejudice, which can cause people to make unfair decisions based on false information or stereotypes.  Another enemy of humans is their own greed. Greed can lead people to pursue wealth and power at the expense of others. This can create an unequal society where the rich get richer and the poor get poorer. Greed can also lead to corruption, which can have serious consequences for society.  Finally, humans are their own worst enemy when it comes to their health. People often make poor choices when it comes to their diet and exercise, leading to health problems such as obesity and heart disease. People may also be exposed to dangerous chemicals or pollutants, leading to long-term health problems.</p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;问ChatGPT，人类最大的敌人是谁？它用英文回答，似乎比中文回答要好得多。如果这是一篇作文，你给它多少分？&lt;/p&gt;</summary>
     
     
     
